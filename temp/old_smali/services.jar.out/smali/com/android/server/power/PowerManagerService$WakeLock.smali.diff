@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/power/PowerManagerService$WakeLock.smali	2016-01-04 20:39:34.760953977 +0800
+--- /home/ghoul/micode/m8/temp/new_smali/services.jar.out/./smali/com/android/server/power/PowerManagerService$WakeLock.smali	2016-01-04 20:38:28.645848010 +0800
+***************
+*** 12,18 ****
+  .end annotation
+  
+  .annotation system Ldalvik/annotation/InnerClass;
+!     accessFlags = 0x12
+      name = "WakeLock"
+  .end annotation
+  
+--- 12,18 ----
+  .end annotation
+  
+  .annotation system Ldalvik/annotation/InnerClass;
+!     accessFlags = 0x10
+      name = "WakeLock"
+  .end annotation
+  

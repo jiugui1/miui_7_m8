@@ -1,0 +1,13 @@
+*** ./smali/android/net/wifi/WifiEnterpriseConfig.smali	2016-01-04 20:39:22.557121674 +0800
+--- /home/ghoul/micode/m8/temp/new_smali/framework.jar.out/./smali/android/net/wifi/WifiEnterpriseConfig.smali	2016-01-04 20:38:16.874003305 +0800
+***************
+*** 1933,1938 ****
+--- 1933,1940 ----
+          :pswitch_0
+          :pswitch_0
+          :pswitch_0
++         :pswitch_0
++         :pswitch_0
+      .end packed-switch
+  .end method
+  

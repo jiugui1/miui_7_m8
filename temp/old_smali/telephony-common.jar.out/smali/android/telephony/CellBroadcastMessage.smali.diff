@@ -1,0 +1,37 @@
+*** ./smali/android/telephony/CellBroadcastMessage.smali	2016-01-04 20:39:31.029005383 +0800
+--- /home/ghoul/micode/m8/temp/new_smali/telephony-common.jar.out/./smali/android/telephony/CellBroadcastMessage.smali	2016-01-04 20:38:25.177893888 +0800
+***************
+*** 1316,1321 ****
+--- 1316,1330 ----
+      return-object v1
+  .end method
+  
++ .method public getSubId()I
++     .locals 1
++ 
++     .prologue
++     const/4 v0, 0x0
++ 
++     return v0
++ .end method
++ 
+  .method public isCmasMessage()Z
+      .locals 1
+  
+***************
+*** 1479,1484 ****
+--- 1488,1501 ----
+      return-void
+  .end method
+  
++ .method public setSubId(I)V
++     .locals 0
++     .param p1, "subId"    # I
++ 
++     .prologue
++     return-void
++ .end method
++ 
+  .method public writeToParcel(Landroid/os/Parcel;I)V
+      .locals 2
+      .param p1, "out"    # Landroid/os/Parcel;

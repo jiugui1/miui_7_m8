@@ -7548,9 +7548,9 @@
     .end local v5    # "nextTask":Lcom/android/server/am/TaskRecord;
     :cond_3
     :goto_2
-    invoke-static {p0, v12, v11}, Lcom/android/server/am/ActivityStackInjector;->transferOnTopOfHomeForMoveTaskToBackLocked(Lcom/android/server/am/ActivityStack;Ljava/util/ArrayList;Lcom/android/server/am/TaskRecord;)V
-
     iget-object v12, p0, Lcom/android/server/am/ActivityStack;->mTaskHistory:Ljava/util/ArrayList;
+
+    invoke-static {p0, v12, v11}, Lcom/android/server/am/ActivityStackInjector;->transferOnTopOfHomeForMoveTaskToBackLocked(Lcom/android/server/am/ActivityStack;Ljava/util/ArrayList;Lcom/android/server/am/TaskRecord;)V
 
     iget-object v12, p0, Lcom/android/server/am/ActivityStack;->mTaskHistory:Ljava/util/ArrayList;
 
@@ -7839,7 +7839,6 @@
 
     invoke-static {p0, v3, p1}, Lcom/android/server/am/ActivityStackInjector;->transferOnTopOfHomeForMoveTaskToFrontLocked(Lcom/android/server/am/ActivityStack;Ljava/util/ArrayList;Lcom/android/server/am/TaskRecord;)V
 
-    .line 3193
     invoke-direct {p0, p1}, Lcom/android/server/am/ActivityStack;->insertTaskAtTop(Lcom/android/server/am/TaskRecord;)V
 
     .line 3196

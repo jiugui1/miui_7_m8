@@ -1868,7 +1868,7 @@
 
     move-result v18
 
-    goto :cond_7
+    if-nez v18, :cond_7
 
     .line 3938
     const-string v18, "BackupManagerService"
@@ -2062,9 +2062,8 @@
 
     and-int v18, v18, v19
 
-    if-nez v18, :cond_8
+    goto :cond_8
 
-    .line 3949
     const-string v18, "BackupManagerService"
 
     new-instance v19, Ljava/lang/StringBuilder;
@@ -2792,7 +2791,7 @@
 
     and-int v18, v18, v6
 
-    if-eqz v18, :cond_b
+    #if-eqz v18, :cond_b
 
     .line 4062
     iget-object v0, v12, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
@@ -3044,7 +3043,7 @@
 
     move-result v18
 
-    #if-eqz v18, :cond_9
+    if-eqz v18, :cond_9
 
     const-string v18, "BackupManagerService"
 

@@ -2811,9 +2811,9 @@
     .param p3, "reason"    # I
 
     .prologue
-    const/4 v5, 0x0
-
     const/4 v4, 0x1
+
+    const/4 v5, 0x0
 
     invoke-direct {p0}, Lcom/android/server/power/PowerManagerService;->checkIfBootAnimationFinished()V
 
@@ -3419,7 +3419,7 @@
 .end method
 
 .method private handleUserActivityTimeout()V
-    .locals 2
+    .locals 6
 
     .prologue
     .line 1801

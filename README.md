@@ -1,4 +1,4 @@
-# miui_V7_m8
+# patchrom_miui_7_m8
 本device为本人基于AOSP适配MIUI 7 For HTC M8项目插桩代码，本人拥有无可争议的原著权，严禁任何人基于此device编译ROM，然后加入推广app后发布的卑鄙无耻行为。
 
 谢绝以此device打包发布任何ROM，仅供个人学习试用。
